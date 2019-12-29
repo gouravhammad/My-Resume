@@ -1,0 +1,16 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "It is my Resume",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
