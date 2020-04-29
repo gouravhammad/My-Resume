@@ -15,6 +15,14 @@ app.get('/',function(req,res){
     res.render('Resume')
 })
 
+app.get('/gallery',function(req,res){
+    res.render('Gallery')
+})
+
+app.get('/blog',function(req,res){
+    res.render('Blog')
+})
+
 // Server
 app.listen(PORT,function(error){
     if(error) throw error
